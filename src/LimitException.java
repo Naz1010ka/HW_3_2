@@ -1,4 +1,4 @@
-public class LimitException extends Throwable {
+public class LimitException extends Exception  {
 
     private String message;
     private  double remainingAmout;
